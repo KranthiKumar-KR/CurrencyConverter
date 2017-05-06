@@ -26,5 +26,8 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
+    compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.1'
+    compile group: 'javax.jws', name: 'jsr181-api', version: '1.0-MR1'
+    compile group: 'javax.xml.ws', name: 'jaxws-api', version: '2.1'
     testCompile 'junit:junit:4.12'
 }
